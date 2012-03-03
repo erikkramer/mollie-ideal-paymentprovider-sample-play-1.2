@@ -29,7 +29,7 @@ public class Application extends Controller {
     	IDeal ideal = new IDeal();
     	ideal.setBankId(iDealBank);
     	ideal.setTestMode(true);
-    	ideal.createPayment(1110, "uitgebreidehoroscoop.nl", "RETURN_URL", "REPORTURL->URL_POINTING_TO:checkIDealPayment");
+    	ideal.createPayment(1110, "DESCRIPTION", "RETURN_URL", "REPORTURL->URL_POINTING_TO:checkIDealPayment");
     	
     	Logger.info("ideal.toString: " + ideal.toString());
     	
