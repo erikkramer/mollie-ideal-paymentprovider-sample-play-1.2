@@ -1,0 +1,25 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+    <div id="phase3-ideal">
+  	#{form id:'phase3-IDeal', action:@Application.startIDealPayment()}
+  
+  
+   <div>
+        <label for="idealBanks">Selecteer uw bank: </label>
+    </div>
+     <div>
+         	<select name="iDealBank" id="iDealBank">
+		  	#{list items:idealBanks, as:'bank'}
+		    	<option value="${bank.bankId}">${bank.bankName}</option>
+			#{/list}
+		  	</select> 
+    </div>
+	
+   <div>
+     <input type="submit" class="submit" value="betaal met iDeal!" id="idealStart">
+    </div>
+    #{/form}
+  
+  </div>
