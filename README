@@ -1,0 +1,6 @@
+Mollie IDeal Payment provider Play! Framework Application.
+
+- in the /app/paymentproviders package are 3 IDeal classes, they can be easily reused in ANY Java based application.
+- to see a sample implementation of the IDeal class, check in /app/controllers/Application.java
+
+If you have questions just send me a tweet at @erikkramer
