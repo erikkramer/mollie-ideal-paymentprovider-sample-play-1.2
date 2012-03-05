@@ -30,8 +30,8 @@ public class IDeal {
 	private static Integer MIN_TRANS_AMOUNT = 118;
 
 	/* Your partner id and key from mollie.nl */
-	private static Integer PARTNER_ID = 768917;
-	private static String PROFILE_KEY = "11d8b117";
+	private static Integer PARTNER_ID = 100;
+	private static String PROFILE_KEY = "";
 	
 	/* Constant host/port/directory variables */
 	private static String API_HOST = "https://secure.mollie.nl";
